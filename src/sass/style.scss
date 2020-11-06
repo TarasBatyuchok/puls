@@ -2,6 +2,9 @@
 *{
   font-family: 'Museo Sans Cyrl', sans-serif;
 }
+body{
+  overflow-x: hidden;
+}
 .container{
   max-width: 950px;
   margin: 0 auto;
@@ -11,3 +14,4 @@
 @import 'blocks/buttons';
 @import 'blocks/advantages';
 @import 'blocks/title';
+@import 'media/media';
