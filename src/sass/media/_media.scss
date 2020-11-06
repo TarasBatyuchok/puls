@@ -32,8 +32,8 @@
  }
  	.hamburger{
 		 
-		display: fixid;
-		position: absolute;
+		display: block;
+		position: fixed;
 		left: 10px;
 		top: 20px;
 		width: 50px;
@@ -55,13 +55,10 @@
 						display: none;
 					}
 					&:nth-child(3){
-						transform:translateY(-5px) rotate(45deg);
+						transform:translateY(-6px) rotate(45deg);
 					}
-	
 			}
-				
 		}
-
 	}
 
 	
