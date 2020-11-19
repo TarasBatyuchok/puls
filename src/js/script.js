@@ -74,10 +74,10 @@ $(document).ready(function () {
     //     $('.overlay,#order').fadeIn('slow');
     // });
     //--------------------------------- 
-    $('.button_mini').each(function (i) {
+    $(".button_mini").each(function (i) {
         $(this).on('click', function () {
             $('#order .modal__descr').text($('.catalog-item__subtitle').eq(i).text());
-            $('.overlay ,#order').fadein('slow');
+            $('.overlay ,#order').fadeIn('slow');
         })
     })
 
@@ -132,6 +132,27 @@ $(document).ready(function () {
             $('form').trigger('reset');
         });
         return false;
+    });
+
+    // Smoth scroll and pageup
+
+    $(window).scroll(function() {
+        if($(this).scrollTop() >1600) {
+            $('.pageup').fadeIn();
+        }else{
+            $('.pageup').fadeOut();
+        }
+    });
+
+
+});
+
+// smooth scroll
+$(function(){
+    $("a[href^='#']").click(function(){
+            var _href = $(this).attr("href");
+            $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+            return false;
     });
 });
 

@@ -1,11 +1,12 @@
 @import 'base/variables';
 @import 'base/mixins';
+@import 'base/animations';
 *{
   font-family: 'Museo Sans Cyrl', sans-serif;
 }
-body{
-  overflow-x: hidden;
-}
+// body{
+//   overflow-x: hidden;
+// }
 .container{
   max-width: 950px;
   margin: 0 auto;
@@ -16,11 +17,12 @@ body{
 @import 'blocks/advantages';
 @import 'blocks/title';
 @import 'blocks/consultation';
-@import 'media/media';
 @import 'blocks/forms';
 @import 'blocks/carousel';
 @import 'blocks/catalog';
 @import 'blocks/feed';
 @import 'blocks/footer';
 @import 'blocks/modal' ;
+@import 'blocks/pageup';
+@import 'media/media';
 
