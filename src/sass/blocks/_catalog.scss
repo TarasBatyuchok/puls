@@ -129,6 +129,10 @@
 			padding-left: 19px;
 			margin-bottom: 0;
 			list-style-type:none;
+			ul{
+			list-style: none;
+			padding-left: 0;
+			}
 			&_active{
 				margin-left: 0px;
 				transform: translateX(-100%);
