@@ -61,6 +61,11 @@
 			}
 		}
 	}
+	.catalog{
+		&__content{
+			justify-content: space-evenly;
+		}
+	}
 	.title{
 		&_left{
 			text-align: center;
