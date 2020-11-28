@@ -60,5 +60,23 @@
 					}
 			}
 		}
+	}
+	.title{
+		&_left{
+			text-align: center;
+			font-size: 29px;
+			margin-bottom: 24px;
+		}
+	
+	}
+	
+	.consultation{
+		&__descr{
+			text-align: center;
+		}
+	}
+	
+	.feed-form{
+		margin: 0 auto;
 	}	
 }
