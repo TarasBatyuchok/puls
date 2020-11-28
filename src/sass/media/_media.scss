@@ -61,6 +61,9 @@
 			}
 		}
 	}
+	.container{
+		padding: 0 20px;
+	}
 	.catalog{
 		&__content{
 			justify-content: space-evenly;
@@ -84,4 +87,202 @@
 	.feed-form{
 		margin: 0 auto;
 	}	
+}
+@media(max-width:414px){
+	body{
+		overflow-x: hidden;
+	}
+	.header{
+		text-align: center;
+		&__logo{
+			width: 75%;
+		}
+	}
+	.promo{
+		&__header{
+			font-size: 27px;
+		}
+		&__subheader{
+			font-size: 15px;
+		}
+		&__icons{
+			width: 100%;
+			justify-content: space-evenly;
+		}
+	}
+	.feed{
+		&__item{
+			
+			text-align: center;
+			flex-direction: column;
+			align-items: center;
+		}
+		&__descr{
+			font-size: 12px;
+		}
+	}
+	.carousel{
+		&__inner{
+			width: 100%;
+		}
+	}
+	.slick-slide{
+		width: 100%;
+		img{
+			width: 100%;
+		}
+	}
+	.catalog{
+		&__tab{
+			transform: skewX(0deg);
+			font-size: 11px;
+			div{
+				transform: skewX(0deg);
+				
+			}	
+		}
+	}
+	.footer{
+		&__info{
+			width: 100%;
+		}
+	}
+
+	.title{
+		&_left{
+			font-size: 14px;	
+		}
+	}
+	.consultation{
+		&__descr{
+			font-size: 11px;
+		}
+	}
+	.modal{
+		width: 358px;
+		&__close{
+			top: -31px;
+			right: 0px;
+		}
+	}
+}
+@media(max-width:375px){
+	.header{
+		text-align: center;
+		&__logo{
+			width: 75%;
+		}
+	}
+	.promo{
+		&__header{
+			font-size: 27px;
+		}
+		&__subheader{
+			font-size: 15px;
+		}
+		&__icons{
+			width: 100%;
+			justify-content: space-evenly;
+		}
+	}
+	.feed{
+		&__item{
+			
+			text-align: center;
+			flex-direction: column;
+			align-items: center;
+		}
+		&__descr{
+			font-size: 12px;
+		}
+	}
+	.carousel{
+		&__inner{
+			width: 100%;
+		}
+	}
+	.slick-slide{
+		width: 100%;
+		img{
+			width: 100%;
+		}
+	}
+	.catalog{
+		&__tab{
+			transform: skewX(0deg);
+			font-size: 11px;
+			div{
+				transform: skewX(0deg);
+				
+			}	
+		}
+	}
+	.footer{
+		&__info{
+			width: 100%;
+		}
+	}
+
+	.title{
+		&_left{
+			font-size: 14px;	
+		}
+	}
+	.consultation{
+		&__descr{
+			font-size: 11px;
+		}
+	}
+	.modal{
+		width: 358px;
+		&__close{
+			top: -31px;
+			right: 0px;
+		}
+	}
+}
+@media(max-width:320px){
+	.promo{
+		&__header{
+			font-size: 20px;
+		}
+		&__subheader{
+			font-size: 11px;
+		}
+	}
+	.feed-form{
+		width: 226px;
+	}
+	.catalog{
+		&__tab{
+			font-size: 8px;
+		}
+	}
+	.header{
+		&__official{
+			font-size: 8px;
+		}
+		&_active{
+			span{
+				font-size: 13px;	
+			}
+		}
+		&__phone{
+			font-size: 14px;
+		}
+	}
+	.modal{
+		top: 54%;
+		width: 298px;
+		&__close{
+			top: -31px;
+    		right: 0;
+		}
+		&__subtitle{
+			font-size: 13px;
+		}
+		&__descr{
+			font-size: 12px;
+		}
+	}
 }

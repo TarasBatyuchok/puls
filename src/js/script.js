@@ -27,7 +27,16 @@ $(document).ready(function () {
                     // autoplaySpeed: 2000,
                     centerPadding: '40px',
                 }
-            }
+            },
+            {
+                breakpoint:375,
+                settings:{
+                    arrows: false,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    adaptiveHeight: true,
+                }
+            } 
         ]
     });
 
